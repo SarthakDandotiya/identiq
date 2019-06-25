@@ -1,0 +1,26 @@
+/* .navbar-light .navbar-toggle {
+  border: none !important;
+} */
+
+.brand-style {
+  letter-spacing: 5px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: 0.8em;
+  letter-spacing: 3px;
+}
+
+.navbar {
+  background-color: #eaeaee !important;
+  color: black !important;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    margin: 0.5rem 0 !important;
+  }
+}

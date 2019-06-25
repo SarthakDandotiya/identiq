@@ -1,0 +1,29 @@
+/* .about {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} */
+
+.about {
+  height: calc(100vh - 56px);
+  width: 100%;
+  min-height: 500px;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media (max-width: 768px) {
+  .about {
+    min-height: 900px;
+  }
+} */
+
+@media (max-width: 500px) {
+  .about {
+    min-height: 800px;
+  }
+}

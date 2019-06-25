@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background: white;
+  color: #333333;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #ffffff00;
+  padding: 0;
+}
+
+.navbar-toggler:active {
+  border-color: #ffffff00;
+  box-shadow: #ffffff00;
+}
+
+.container {
+  padding-top: 56px;
+  /* height: 50vh; */
+  padding-bottom: -56px;
+}
