@@ -12,6 +12,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {}
 
   beginButton() {
-    this.router.navigate(['/watches']);
+    this.router.navigate(['/watches', 'a']);
   }
 }

@@ -11,6 +11,11 @@
   align-items: center;
 }
 
+.btn-contact {
+  min-width: 100px;
+  border-radius: 0;
+}
+
 @media (max-width: 992px) {
   .contact {
     min-height: calc(100vh - 56px);

@@ -1,6 +1,25 @@
 <div class="container">
   <div class="row">
-    <h4>Watches</h4>
-    <router-outlet></router-outlet>
+    <div class="col-sm-12 col-md-3 mt-3 mb-3">
+      <div class="nav flex-column nav-pills">
+        <a
+          class="nav-link"
+          [routerLink]="['a']"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          A Series
+        </a>
+        <a class="nav-link" [routerLink]="['t']" routerLinkActive="active">
+          T Series
+        </a>
+        <a class="nav-link" [routerLink]="['k']" routerLinkActive="active">
+          K Series
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-9 mt-3">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>

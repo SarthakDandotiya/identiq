@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./straps.component.css']
 })
 export class StrapsComponent implements OnInit {
+  S1 = 'assets/images/straps1.png';
+  S2 = 'assets/images/straps2.png';
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

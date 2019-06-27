@@ -1,7 +1,26 @@
 <div class="container">
   <div class="row">
-    <h4>Accessories</h4>
-    <br />
-    <router-outlet></router-outlet>
+    <div class="col-sm-12 col-md-3 mt-3 mb-3">
+      <div class="nav flex-column nav-pills">
+        <a
+          class="nav-link"
+          [routerLink]="['straps']"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          Straps
+        </a>
+        <a
+          class="nav-link"
+          [routerLink]="['umbrellas']"
+          routerLinkActive="active"
+        >
+          Umbrellas
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-9 mt-3">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>

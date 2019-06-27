@@ -1,0 +1,26 @@
+.active {
+  background: #333333 !important;
+  border-radius: 0 !important;
+}
+
+.nav-link {
+  color: #777777;
+}
+
+.nav-pills {
+  background: #eaeaee;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  /* padding-right: 10%; */
+  /* width: 18%; */
+  z-index: 100;
+  /* position: fixed; */
+  min-width: 150px;
+}
+
+@media (max-width: 768px) {
+  .nav-pills {
+    position: relative;
+    /* width: calc(100vw - 30%); */
+  }
+}
